@@ -11,7 +11,8 @@ import dnnlib.tflib as tflib
 import re
 import sys
 
-import projector
+import projector_modified as projector
+#import projector
 import pretrained_networks
 from training import dataset
 from training import misc
